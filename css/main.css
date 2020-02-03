@@ -1,0 +1,161 @@
+body{
+    font-family: helvetice,arial,sans-serif;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.hidden{
+      display:none;
+}
+
+#container{
+   margin: 0 auto;
+   width: 950px;
+   display: flex;
+   background-color: white;
+   flex-direction: column;
+}
+.mainHeader{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.logoHeader{
+	font-size: 30px;
+	background-color:black;
+     margin:20px 300px;
+     padding: 30px;
+}
+
+.mainNav{ 
+	font-size: 15px;
+	background-color: black;
+	padding: 10px;
+}
+
+.mainImage{
+	font-size: 20px;
+	margin: 10px 50px;
+	padding:200px; 
+	background-color: black;
+	text-align: center;
+}
+/*Home page*/
+.promo{
+	margin:15px 5px;
+	height: 400px; 
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.promobox{
+	background-color: black;
+	width: 250px;
+	height: 350px;
+	margin:20px;
+	text-align: center;
+}
+
+.promobox h4{
+	font-size: 20px;
+	margin: 80px 0;
+}
+
+.textbox{
+	background-color: white;
+	color:black;
+	font-size: 18px;
+	margin:20px 10px;
+	height: 160px;
+}
+
+.textbox h5{
+	font-size: 20px;
+	padding:65px 0;
+}
+
+
+/*Product page*/
+.product{
+	height: 400px;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.productlist{
+	background-color: black;
+	height: 390px;
+	width: 200px;
+	text-align: center;
+	margin:10px 0 10px 50px;
+	font-size: 20px;
+}
+
+.productlist h2{
+	padding-top: 170px;
+}
+
+.productdetail{
+    height: 390px;
+    width: 620px;
+    margin:10px 0px 10px 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfo{
+	height: 120px;
+	width: 600px;
+	margin:10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.detailbox{
+    height: 100px;
+    width: 250px;
+    margin:5px 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+}
+
+.detailbox h3{
+	padding-top: 45px;
+}
+.footer{
+	background-color: black;
+	text-align: center;
+	margin:0 1px;
+}
+
+.socialmedia{
+	display: flex;
+	justify-content: space-evenly;
+	height: 40px;
+	width: 200px;
+	margin: 20px 20px 0 700px ;
+}
+
+.socialmediabox{
+	background-color: white;
+	color: black;
+	height: 35px;
+	width: 60px;
+}
+
+.socialmediabox p{
+    margin-top: 10px;
+}
+.footerInfo{
+	font-size: 20px;
+     margin: 30px 0;
+}
+
+
+
